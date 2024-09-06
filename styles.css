@@ -16,7 +16,7 @@ header {
 
 p {
     font-family: 'Orbitron', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .section p{
@@ -137,8 +137,8 @@ h3 {
 }
 
 .about-image {
-    flex: 0 0 650px;
-    height: 800px;
+    flex: 0 0 550px;
+    height: 750px;
     background-color: #333; /* Darker gray background */
     display: flex;
     justify-content: center;
