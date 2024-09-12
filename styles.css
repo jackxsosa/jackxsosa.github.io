@@ -173,6 +173,25 @@ h3 {
     border-radius: 8px;
 }
 
+.research-section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #333; /* Darker background for each section */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.research-section h2 {
+    color: #b30000; /* Red color for section titles */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.research-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 footer {
     background-color: #333; /* Darker gray */
     color: white;
