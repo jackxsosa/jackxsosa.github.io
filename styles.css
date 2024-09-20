@@ -241,6 +241,27 @@ h3 {
     line-height: 1.6;
 }
 
+.screenshot-box {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #444; /* Slightly lighter gray for screenshot sections */
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.screenshot-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.screenshot-box h4 {
+    margin-top: 1rem;
+    color: #f4f4f4; /* Light gray for step titles */
+}
+
 footer {
     background-color: #333; /* Darker gray */
     color: white;
