@@ -288,6 +288,36 @@ h3 {
     line-height: 1.6;
 }
 
+.requirement-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #333; /* Dark gray background */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.requirement-section h2 {
+    color: #b30000; /* Red color for section titles */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.checklist {
+    list-style: none;
+    padding: 0;
+}
+
+.checklist li {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+    color: #f4f4f4;
+}
+
+.checklist li ul {
+    padding-left: 1.5rem;
+}
+
 .cutting-section {
     margin-bottom: 2rem;
     padding: 1.5rem;
