@@ -400,7 +400,42 @@ h3 {
     border-radius: 2px;
     background-color: #44b471;
   }
-  
+
+  .updates-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #333; /* Dark gray background */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.log-entry {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #444; /* Slightly lighter gray for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.log-entry h3 {
+    font-size: 1.5rem;
+    color: #b30000; /* Red for the date */
+    margin-bottom: 0.5rem;
+}
+
+.log-entry h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #f4f4f4; /* Light gray for the title */
+}
+
+.log-entry p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #f4f4f4;
+}
+
 footer {
     background-color: #333; /* Darker gray */
     color: white;
